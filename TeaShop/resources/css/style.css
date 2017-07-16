@@ -1,0 +1,123 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#header {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 69px;
+  top: 0;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+
+#header .logo {
+  height: 50px;
+}
+
+#header nav {
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 10px;
+}
+
+#header a {
+  color: seashell;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+#header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+#content {
+  padding-top: 70px;
+  width: 1200px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#mission {
+  background-image: url("/Users/zzz/Documents/codecademy/TeaShop/resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 100%;
+}
+
+#mission .mission_txt {
+  margin-top: 325px;
+  background-color: black;
+  text-align: center;
+  padding: 1px;
+}
+
+#mission h2, h4 {
+  text-align: center;
+}
+
+#teas {
+  width: 1000px;
+  padding-top: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.item span {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#locations {
+  background-image: url(/Users/zzz/Documents/codecademy/TeaShop/resources/images/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1200px;
+
+}
+
+#locations h2 {
+  text-align: center;
+}
+
+.location {
+  width: 300px;
+  height: 300px;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  background-color: black;
+  opacity: 1;
+  margin: 20px;
+  padding-top: 10px;
+}
+
+#contact {
+  display: block;
+  text-align: center;
+  height: 200px;
+  width: 1200px;
+}
+
+#footer {
+  margin-left: 20px;
+}
